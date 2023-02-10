@@ -2,7 +2,7 @@
 
 <h1>React - Oceanica Responsive Web Page</h1>
 
-![Project-Cover](https://github.com/asbhogal/React-Oceanica-Responsive-Web-Page/blob/main/src/assets/images/GitHub%20Repo%20REAMDE%20Image%20-%20Oceanica%20Responsive%20Web%20Page.png)
+![Project-Cover](https://github.com/asbhogal/React-Oceanica-Responsive-Web-Page/blob/main/src/assets/images/GitHub%20Repo%20README%20Image%20-%20Oceanica%20Responsive%20Web%20Page.png)
 
 </div>
 
