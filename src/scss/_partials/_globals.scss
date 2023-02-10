@@ -1,0 +1,6 @@
+@use './variables' as *;
+
+html {
+    background-color: $RichBlack;
+    scroll-behavior: smooth;
+}

@@ -10,7 +10,7 @@ const   path = require("path"),
                 title: "Oceanica - Responsive Web Page",
                 author: "Aman Singh Bhogal",
                 description: "A responsive web page for Oceanica",
-                favicon: "",
+                favicon: "./src/assets/logos/OceanicaFavicon.svg",
                 template: "./src/index.html"
             }),
         ];
