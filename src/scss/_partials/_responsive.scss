@@ -1,0 +1,40 @@
+/****** WIDE - 1440px+ ******/
+
+@media only screen and (1441px <= width) {
+    .HeroSectionContent {
+        width: 1140px;
+        margin: 0 auto;
+    }
+}
+
+/****** DESKTOP - 1025px --> 1440px ******/
+
+@media only screen and (1025px <= width <= 1440px) {
+    .HeroSectionContent {
+        padding: 0 150px;
+    }
+}
+
+/****** TABLET - 745px --> 1024px ******/
+
+@media only screen and (745px <= width <= 1024px) {
+    .HeroSectionContent {
+        padding: 0 32px;
+    }
+}
+
+/****** TABLET (SMALL) - 376px --> 744px ******/
+
+@media only screen and (376px <= width <= 744px) {
+    .HeroSectionContent {
+        padding: 0 24px;
+    }
+}
+
+/****** MOBILE - 375px ******/
+
+@media only screen and (width <= 375px) {
+    .HeroSectionContent {
+        padding: 0 24px;
+    }
+}
