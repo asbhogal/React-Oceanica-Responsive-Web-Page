@@ -40,7 +40,8 @@ This project is in two parts:
 
 Credit is given to the following photographers for their contribution to the Unsplash community:
 
- - <a target="_blank" href="#">Oceanica - Responsive Web Page</a>
+ - Photo by <a href="https://unsplash.com/@michaelbenz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michael Benz</a> on <a href="https://unsplash.com/photos/IgWNxx7paz4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 
 <strong>Disclaimer</strong>
 

@@ -13,6 +13,7 @@
     flex-direction: column;
     position: absolute;
     top: 134px;
+    height: calc(100vh - 134px);
     width: 100%;
     .HeroSectionContent {
         display: flex;
