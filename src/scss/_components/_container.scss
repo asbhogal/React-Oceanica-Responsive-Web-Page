@@ -27,6 +27,34 @@
     }
 }
 
+.SideBottomLine {
+    height: 363px;
+    width: 165px;
+    border: solid $LightSilver;
+    border-width: 0 0 1px 1px;
+    margin-top: 35px;
+}
+
+.CTAHeroSection {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    top: -11.5px;
+    left: 140px;
+    .Arrow {
+        width: 15px;
+        height: 15px;
+        display: block;
+        border: solid $White;
+        border-width: 0 1px 1px 0;
+        padding: 3px;
+        rotate: 315deg;
+    }
+    p {
+        @include CTAHeroTypography;
+    }
+}
+
 .CurrentTours {
     display: flex;
     background: rgba(0, 0, 0, 0.4);

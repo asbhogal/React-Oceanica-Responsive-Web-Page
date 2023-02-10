@@ -11,7 +11,7 @@ const Container = () => {
                     <div className="LeftSideContent">
                         <h1 className="HeroTitle">Discover the water</h1>
                         <h2 className="HeroSubTitle">From pristine waters to majestic forests...we have it all</h2>
-                        <div className="VerticalLine"></div>
+                        <div className="SideBottomLine"></div>
                         <div className="CTAHeroSection">
                             <i class="Arrow"></i>
                             <p>Start Your Journey Today</p>
