@@ -1,3 +1,6 @@
+@use '../_partials/mixins' as *;
+@use '../_partials/variables' as *;
+
 .Header {
     display: flex;
     justify-content: space-between;
@@ -9,8 +12,19 @@
         display: flex;
         list-style-type: none;
         gap: 10px;
+        @include NavBarLinks;
+        li {
+            &:first-child {
+                font-weight: 700;
+            }
+        }
     }
     .HeaderCTA {
         background: none;
+        outline: none;
+        border: none;
+        @include NavBarLinks;
+        color: $MoonstoneBlue;
+        font-weight: 700;
     }
 }
