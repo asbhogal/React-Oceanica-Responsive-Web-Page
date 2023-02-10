@@ -1,7 +1,10 @@
 const Container = () => {
     return (
-        <main>
+        <main className="Body">
             <section className="HeroSection"></section>
+            <section className="ActivitiesSection"></section>
+            <section className="TestimonialsSection"></section>
+
         </main>
     )
 };
