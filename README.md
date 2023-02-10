@@ -2,6 +2,8 @@
 
 <h1>React - Oceanica Responsive Web Page</h1>
 
+![](https://api.checklyhq.com/v1/badges/checks/244174c8-3a94-4989-b18d-6a2a925c8ed8?style=for-the-badge&theme=dark) ![](https://api.checklyhq.com/v1/badges/checks/244174c8-3a94-4989-b18d-6a2a925c8ed8?style=for-the-badge&theme=dark&responseTime=true) <br><br> ![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/React-Oceanica-Responsive-Web-Page/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/React-Oceanica-Responsive-Web-Page?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/React-Oceanica-Responsive-Web-Page?color=blueviolet&style=for-the-badge&labelColor=000)
+
 ![Project-Cover](https://github.com/asbhogal/React-Oceanica-Responsive-Web-Page/blob/main/src/assets/images/GitHub%20Repo%20README%20Image%20-%20Oceanica%20Responsive%20Web%20Page.png)
 
 </div>
@@ -23,7 +25,7 @@ This project is in two parts:
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg"><img src="https://github.com/devicons/devicon/raw/master/icons/html5/html5-original.svg" alt="html5 logo" width="50" height="50" style="max-width:100%;"></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg"><img src="https://github.com/devicons/devicon/raw/master/icons/css3/css3-original.svg" alt="css3 logo" width="50" height="50" style="max-width:100%;"></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg"><img src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg" alt="sass logo" width="50" height="50" style="max-width:100%;"></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/postcss/brand/blob/master/dist/postcss-logo-symbol.svg"><img src="https://github.com/postcss/brand/blob/master/dist/postcss-logo-symbol.svg" alt="postcss logo" width="50" height="50" style="max-width:100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/postcss/Oceanica/blob/master/dist/postcss-logo-symbol.svg"><img src="https://github.com/postcss/Oceanica/blob/master/dist/postcss-logo-symbol.svg" alt="postcss logo" width="50" height="50" style="max-width:100%;"></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg"><img src="https://github.com/devicons/devicon/raw/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50" style="max-width:100%;"></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg"><img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" alt="React logo" width="50" height="50" style="max-width:100%;"></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/babel/babel-original.svg"><img src="https://github.com/devicons/devicon/blob/master/icons/babel/babel-original.svg" alt="Babel logo" width="50" height="50" style="max-width:100%;"></a>
@@ -36,4 +38,4 @@ This project is in two parts:
 
 <strong>Disclaimer</strong>
 
- The brand 'Oceanica' used herein is solely fictional and any representation to an existing company, in part or whole, is entirely coincidental.
+ The Oceanica 'Oceanica' used herein is solely fictional and any representation to an existing company, in part or whole, is entirely coincidental.
