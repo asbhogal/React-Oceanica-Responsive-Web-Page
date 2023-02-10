@@ -41,6 +41,10 @@ This project is in two parts:
 Credit is given to the following photographers for their contribution to the Unsplash community:
 
  - Photo by <a href="https://unsplash.com/@michaelbenz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michael Benz</a> on <a href="https://unsplash.com/photos/IgWNxx7paz4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+ - Photo by <a href="https://unsplash.com/pt-br/@petefogden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Peter Fogden</a> on <a href="https://unsplash.com/photos/toB7tKXne7U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+ - Photo by <a href="https://unsplash.com/de/@isaiahmcclean?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Isaiah McClean</a> on <a href="https://unsplash.com/photos/DrVJk1EaPSc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+ - Photo by <a href="https://unsplash.com/@jusdevoyage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jusdevoyage</a> on <a href="https://unsplash.com/photos/3OoUfzgTc2I?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+ - Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/photos/hS_eGxLjozs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 
 <strong>Disclaimer</strong>
