@@ -5,6 +5,9 @@
         width: 1140px;
         margin: 0 auto;
     }
+    .swiper-wrapper {
+        width: 1140px;
+    }
 }
 
 /****** DESKTOP - 1025px --> 1440px ******/
@@ -13,12 +16,16 @@
     .HeroSectionContent {
         padding: 0 150px;
     }
+    .ActivitiesSection {
+        padding: 0 150px;
+    }
 }
 
 /****** TABLET - 745px --> 1024px ******/
 
 @media only screen and (745px <= width <= 1024px) {
-    .HeroSectionContent {
+    .HeroSectionContent,
+    .ActivitiesSection {
         padding: 0 32px;
     }
 }
@@ -26,7 +33,8 @@
 /****** TABLET (SMALL) - 376px --> 744px ******/
 
 @media only screen and (376px <= width <= 744px) {
-    .HeroSectionContent {
+    .HeroSectionContent,
+    .ActivitiesSection {
         padding: 0 24px;
     }
 }
@@ -34,7 +42,8 @@
 /****** MOBILE - 375px ******/
 
 @media only screen and (width <= 375px) {
-    .HeroSectionContent {
+    .HeroSectionContent,
+    .ActivitiesSection {
         padding: 0 24px;
     }
 }

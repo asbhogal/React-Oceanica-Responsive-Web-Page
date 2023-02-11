@@ -1,5 +1,8 @@
 import backgroundHeroImg from "../assets/images/BackgroundHeroImg.jpg";
 import Header from "./Header";
+import ActivityCard from "./ActivityCard";
+
+import activitySectionAccent from "../assets/images/historic-destinations-accent.svg";
 
 const Container = () => {
     return (
@@ -37,7 +40,10 @@ const Container = () => {
                     </div>
                 </div>
             </section>
-            <section className="ActivitiesSection"></section>
+            <section className="ActivitiesSection">
+                <img className="ActivityCardAccent" src={ activitySectionAccent }></img>
+                <ActivityCard />
+            </section>
             <section className="TestimonialsSection"></section>
 
         </main>

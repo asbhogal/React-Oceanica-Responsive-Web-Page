@@ -11,9 +11,9 @@
 .HeroSection {
     display: flex;
     flex-direction: column;
-    position: absolute;
+    //position: absolute;
     top: 134px;
-    height: calc(100vh - 134px);
+    //height: calc(100vh - 134px);
     width: 100%;
     .HeroSectionContent {
         display: flex;
@@ -89,3 +89,63 @@
         @include BodyTypography;
     }
 }
+
+.ActivitiesSection {
+    align-items: center;
+    height: 649px;
+    .ActivityCard {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        .ActivityImage {
+            width: auto;
+            height: auto;
+        }
+        .ActivityTitle {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 49px;
+        }
+        .ActivityDescription {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 21px;
+            line-height: 29px;
+        }
+        .ActivityPrice {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 21px;
+            line-height: 29px;
+        }
+    }
+    .ActivityCardAccent {
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+}
+
+/* .ActivitiesSection {
+    flex-direction: column;
+    overflow: hidden;
+    height: 649px;
+    margin: 0 auto;       
+    .ActivityCard {
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+        width: 100%;
+        img {
+            width: auto;
+            height: auto;
+        }
+    }
+    .swiper-wrapper {
+        display: flex;
+    }
+} */
