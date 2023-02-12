@@ -49,4 +49,4 @@ Credit is given to the following photographers for their contribution to the Uns
 
 <strong>Disclaimer</strong>
 
- The Oceanica 'Oceanica' used herein is solely fictional and any representation to an existing company, in part or whole, is entirely coincidental.
+ The name 'Oceanica' used herein is solely fictional and any representation to an existing company, in part or whole, is entirely coincidental.
