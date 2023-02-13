@@ -5,20 +5,75 @@
         display: flex;
     }
     flex-direction: column;
-    .NewsletterSignUpSection {
-        flex-direction: column;
-        align-items: center;
-        .NewsletterSignUpFormInput {
-            background: none;
-            border: none;
-            border-bottom: 1px solid white;
+    
+    .TopSection {
+        justify-content: space-around;
+        padding: 21px 0;
+        .BusinessDetails {
+            display: flex;
+            flex-direction: column;
+            img {
+                width: 188px;
+                padding-bottom: 20px;
+            }
+            .BusinessAddress {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                font-family: 'Manrope', sans-serif;
+                font-size: 12px;
+            }
+        }
+        .FooterMenu {
+            display: flex;
+            gap: 45px;
+            ul {
+                font-family: 'Manrope', sans-serif;
+                font-size: 12px;
+                list-style-type: none;
+            }
         }
     }
-    .SocialIcons {
+
+    .MiddleSection {
+        display: flex;
         justify-content: center;
-        gap: 20px;
-        width: 100%;
-        padding: 25px 0;
-        color: $White;
+        padding: 10px 0;
+        .NewsletterSignUpSection {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            .NewsletterSignUpFormInput {
+                background: none;
+                border: none;
+                border-bottom: 1px solid white;
+            }
+        }
+    }
+    
+    .BottomSection {
+        display: flex;
+        .SocialIcons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+            padding: 25px 0;
+            color: $White;
+        }
+    }
+}
+
+#FooterMenuTitle {
+    font-weight: 600;
+    border-bottom: 1px solid $White;
+    padding: 5px;
+}
+
+@for $i from 1 through 5 {
+    .FooterMenuItem-#{$i} {
+        font-weight: 400;
+        padding: 5px;
     }
 }

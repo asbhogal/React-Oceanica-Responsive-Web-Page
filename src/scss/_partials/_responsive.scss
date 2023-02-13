@@ -8,6 +8,11 @@
     .swiper-wrapper {
         width: 1140px;
     }
+    .Footer > .TopSection {
+        align-items: flex-end;
+        width: 1140px;
+        margin: 0 auto;
+    }
 }
 
 /****** DESKTOP - 1025px --> 1440px ******/
@@ -19,6 +24,10 @@
     .ActivitiesSection {
         padding: 0 150px;
     }
+    .Footer > .TopSection {
+        align-items: flex-end;
+        padding: 0 150px;
+    }
 }
 
 /****** TABLET - 745px --> 1024px ******/
@@ -27,6 +36,10 @@
     .HeroSectionContent,
     .ActivitiesSection {
         padding: 0 32px;
+    }
+    .Footer > .TopSection {
+        align-items: flex-end;
+        padding: 32px 0;
     }
 }
 
@@ -37,6 +50,14 @@
     .ActivitiesSection {
         padding: 0 24px;
     }
+    .Footer > .TopSection {
+        flex-direction: column;
+        align-items: center;
+        padding: 24px 0;
+    }
+    .Footer > .TopSection > .BusinessDetails {
+        text-align: center;
+    }
 }
 
 /****** MOBILE - 375px ******/
@@ -45,5 +66,16 @@
     .HeroSectionContent,
     .ActivitiesSection {
         padding: 0 24px;
+    }
+    .Footer > .TopSection {
+        flex-direction: column;
+        align-items: center;
+        padding: 24px 0;
+    }
+    .Footer > .TopSection > .FooterMenu {
+        text-align: center;
+    }
+    .Footer > .TopSection > .BusinessDetails {
+        text-align: center;
     }
 }

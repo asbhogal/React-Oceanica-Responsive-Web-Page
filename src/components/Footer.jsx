@@ -5,7 +5,8 @@ import { FaPinterestP } from "react-icons/fa";
 const Footer = () => {
     return (
         <footer className="Footer">
-            <section className="BusinessDetails">
+        <section className="TopSection">
+            <div className="BusinessDetails">
                 <img src={ oceanicaLogo }></img>
                 <div className="BusinessAddress">
                     <p>1 The Marina</p>
@@ -14,34 +15,36 @@ const Footer = () => {
                     <p>WP</p>
                     <p>000-000</p>x
                 </div>
-            </section>
-            <section className="FooterMenu">
+            </div>
+            <div className="FooterMenu">
                 <ul className="FooterMenu-1">
-                    <li id="FooterMenuTitle" className="FooterMenuItem">About Support</li>
-                    <li className="FooterMenuItem">Home</li>
-                    <li className="FooterMenuItem">Tours</li>
-                    <li className="FooterMenuItem">Pricing</li>
-                    <li className="FooterMenuItem">Contact &#38; Support</li>
-                    <li className="FooterMenuItem">FAQs</li>
+                    <li id="FooterMenuTitle">About Support</li>
+                    <li className="FooterMenuItem-1">Home</li>
+                    <li className="FooterMenuItem-2">Tours</li>
+                    <li className="FooterMenuItem-3">Pricing</li>
+                    <li className="FooterMenuItem-4">Contact &#38; Support</li>
+                    <li className="FooterMenuItem-5">FAQs</li>
                 </ul>
                 <ul className="FooterMenu-2">
-                    <li id="FooterMenuTitle" className="FooterMenuItem">Packages &#38; Deals</li>
-                    <li className="FooterMenuItem">Travel Blog</li>
-                    <li className="FooterMenuItem">Subscriptions</li>
-                    <li className="FooterMenuItem">Popular Destinations</li>
-                    <li className="FooterMenuItem">Last Minute Packages</li>
-                    <li className="FooterMenuItem">FAQs</li>
+                    <li id="FooterMenuTitle">Packages &#38; Deals</li>
+                    <li className="FooterMenuItem-1">Travel Blog</li>
+                    <li className="FooterMenuItem-2">Subscriptions</li>
+                    <li className="FooterMenuItem-3">Popular Destinations</li>
+                    <li className="FooterMenuItem-4">Last Minute Packages</li>
+                    <li className="FooterMenuItem-5">FAQs</li>
                 </ul>
                 <ul className="FooterMenu-3">
-                    <li id="FooterMenuTitle" className="FooterMenuItem">Legal</li>
-                    <li className="FooterMenuItem">Terms &#38; Conditions</li>
-                    <li className="FooterMenuItem">Privacy Statement</li>
-                    <li className="FooterMenuItem">Cookie Policy</li>
-                    <li className="FooterMenuItem">Disclaimer</li>
-                    <li className="FooterMenuItem">Payment Options</li>
+                    <li id="FooterMenuTitle">Legal</li>
+                    <li className="FooterMenuItem-1">Terms &#38; Conditions</li>
+                    <li className="FooterMenuItem-2">Privacy Statement</li>
+                    <li className="FooterMenuItem-3">Cookie Policy</li>
+                    <li className="FooterMenuItem-4">Disclaimer</li>
+                    <li className="FooterMenuItem-5">Payment Options</li>
                 </ul>
-            </section>
-            <section className="NewsletterSignUpSection">
+            </div>
+        </section>
+        <section className="MiddleSection">
+            <div className="NewsletterSignUpSection">
                 <p>Sign Up to receive 10&#37; off your first package deal&#42;</p>
                 <div className="NewsletterSignUpForm">
                     <input className="NewsletterSignUpFormInput" placeholder="Email address"></input>
@@ -52,14 +55,17 @@ const Footer = () => {
                     <label for="NewsletterGDPRCheckbox" id="GDPRCheckbox">GDPR CHECKBOX</label>
                 </div>
                 <p className="NewsletterOfferDisclaimer">&#42;Offer valid for a certain period and only on particular packages. T&Cs apply.</p>
-            </section>
-            <section className="SocialIcons">
+            </div>
+        </section>
+        <section className="BottomSection">
+            <div className="SocialIcons">
                 <BsTwitter />
                 <BsFacebook />
                 <BsInstagram />
                 <BsYoutube />
                 <FaPinterestP />
-            </section>
+            </div>
+        </section>
         </footer>
     )
 };
