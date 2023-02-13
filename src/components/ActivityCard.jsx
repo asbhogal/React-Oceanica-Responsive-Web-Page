@@ -1,6 +1,5 @@
 import activityData from "../js/activityData";
 
-import React, { useState } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, FreeMode, Pagination, Thumbs, A11y } from 'swiper';
 import 'swiper/css';

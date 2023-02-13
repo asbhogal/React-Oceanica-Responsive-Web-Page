@@ -8,6 +8,11 @@
     flex-direction: column;
 }
 
+.HeaderAndHeroSection {
+    flex-direction: column;
+    background-image: url('../assets/images/BackgroundHeroImg.jpg');
+}
+
 .HeroSection {
     display: flex;
     flex-direction: column;
