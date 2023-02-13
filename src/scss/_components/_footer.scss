@@ -44,10 +44,30 @@
             flex-direction: column;
             align-items: center;
             gap: 10px;
-            .NewsletterSignUpFormInput {
-                background: none;
-                border: none;
-                border-bottom: 1px solid white;
+            font-family: 'Manrope', sans-serif;
+            font-size: 12px;
+            > p:first-of-type {
+                font-weight: 600;
+            }
+            .NewsletterSignUpForm {
+                display: flex;
+                gap: 12px;
+                .NewsletterSignUpFormInput {
+                    background: none;
+                    outline: none;
+                    border-bottom: 1px solid white;
+                    outline: none;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    padding: 8px 16px;
+                }
+                .NewsletterSignUpSubmitButton {
+                    background: none;
+                    outline: none;
+                    border: 1px solid white;
+                    padding: 8px 16px;
+                }
             }
         }
     }

@@ -71,6 +71,9 @@
         z-index: 9;
         cursor: pointer;
     }
+    .HeaderCTA {
+        display: none;
+    }
     .HeaderNavLinks {
         position: absolute !important;
         left: 0;
