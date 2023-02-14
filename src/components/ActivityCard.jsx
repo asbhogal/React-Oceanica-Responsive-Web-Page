@@ -16,7 +16,6 @@ const ActivityCard = () => {
                 autoplay={ true }
                 loop={ true }
                 freeMode={ true }
-                onSlideChange={ () => console.log('slide change') }
 
                 breakpoints = {{
                     1440: {

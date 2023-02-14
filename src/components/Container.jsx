@@ -1,13 +1,16 @@
-import backgroundHeroImg from "../assets/images/BackgroundHeroImg.jpg";
 import Header from "./Header";
 import ActivityCard from "./ActivityCard";
+import TestimonialCard from "./TestimonialCard";
 
+import headerAndHeroImg from "../assets/images/BackgroundHeroImg.jpg";
 import activitySectionAccent from "../assets/images/historic-destinations-accent.svg";
+import testimonialSectionAccent from "../assets/images/rejuvenation-accent.svg";
 
 const Container = () => {
     return (
         <main className="ContainerBody">
             <div className="HeaderAndHeroSection">
+                <img className="HeaderAndHeroImg" src={ headerAndHeroImg }></img>
                 <Header />
                 <section className="HeroSection">
                     <div className="HeroSectionContent">
@@ -46,7 +49,13 @@ const Container = () => {
                 <img className="ActivityCardAccent" src={ activitySectionAccent }></img>
                 <ActivityCard />
             </section>
-            <section className="TestimonialsSection"></section>
+            <section className="TestimonialsSection">
+                <img class="TestimonialCardAccent" src={ testimonialSectionAccent }></img>
+                <h2 className="TestimonialHeader">Our Testimonials</h2>
+                <div className="TestimonialSlider">
+                    <TestimonialCard />
+                </div>
+            </section>
 
         </main>
     )

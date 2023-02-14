@@ -2,24 +2,28 @@
 @use '../_partials/mixins' as *;
 
 .ContainerBody {
-    > * {
-        display: flex;
-    }
     flex-direction: column;
 }
 
 .HeaderAndHeroSection {
+    display: flex;
     flex-direction: column;
-    background-image: url('../assets/images/BackgroundHeroImg.jpg');
+    height: 100vh;
+    .HeaderAndHeroImg {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
 .HeroSection {
     display: flex;
     flex-direction: column;
-    //position: absolute;
-    top: 134px;
-    //height: calc(100vh - 134px);
     width: 100%;
+    position: absolute;
+    top: 135px;
     .HeroSectionContent {
         display: flex;
         height: 100%;
@@ -34,8 +38,8 @@
 }
 
 .SideBottomLine {
-    height: 363px;
-    width: 165px;
+    height: 165px;
+    width: 95px;
     border: solid $LightSilver;
     border-width: 0 0 1px 1px;
 }
@@ -45,8 +49,8 @@
     align-items: center;
     gap: 30px;
     position: relative;
-    top: -52.1px;
-    left: 140px;
+    top: -68.6px;
+    left: 71px;
     .Arrow {
         width: 15px;
         height: 15px;
@@ -96,33 +100,30 @@
 }
 
 .ActivitiesSection {
+    display: flex;
     align-items: center;
     height: 649px;
     .ActivityCard {
         display: flex;
         flex-direction: column;
         gap: 25px;
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
         .ActivityImage {
             width: auto;
             height: auto;
         }
         .ActivityTitle {
-            font-family: 'Manrope';
-            font-style: normal;
             font-weight: 700;
             font-size: 36px;
             line-height: 49px;
         }
         .ActivityDescription {
-            font-family: 'Manrope';
-            font-style: normal;
             font-weight: 400;
             font-size: 21px;
             line-height: 29px;
         }
         .ActivityPrice {
-            font-family: 'Manrope';
-            font-style: normal;
             font-weight: 600;
             font-size: 21px;
             line-height: 29px;
@@ -131,6 +132,43 @@
     .ActivityCardAccent {
         position: absolute;
         left: 0;
+        width: 100%;
+    }
+}
+
+.TestimonialsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 649px;
+    gap: 40px;
+    font-family: 'Manrope', sans-serif;
+    .TestimonialCard {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        background: rgba(38, 44, 49, 0.25);
+        backdrop-filter: blur(12.5px);
+        .TestimonialImage {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .TestimonialQuote {
+            font-weight: 400;
+            font-size: 21px;
+            line-height: 29px;
+            text-align: center;
+        }
+        .TestimonialName {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+        }
+    }
+    .TestimonialCardAccent {
+        position: absolute;
         width: 100%;
     }
 }
