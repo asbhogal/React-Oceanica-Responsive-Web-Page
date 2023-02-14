@@ -19,7 +19,7 @@ const Container = () => {
                             <h2 className="HeroSubTitle">From pristine waters to majestic forests...we have it all</h2>
                             <div className="SideBottomLine"></div>
                             <div className="CTAHeroSection">
-                                <i class="Arrow"></i>
+                                <i className="Arrow"></i>
                                 <p>Start Your Journey Today</p>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ const Container = () => {
                 <ActivityCard />
             </section>
             <section className="TestimonialsSection">
-                <img class="TestimonialCardAccent" src={ testimonialSectionAccent }></img>
+                <img className="TestimonialCardAccent" src={ testimonialSectionAccent }></img>
                 <h2 className="TestimonialHeader">Our Testimonials</h2>
                 <div className="TestimonialSlider">
                     <TestimonialCard />

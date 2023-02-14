@@ -35,9 +35,11 @@ const TestimonialCard = () => {
 
     { testimonialData.map(data => (
         <SwiperSlide className="TestimonialCard" key={ data.id }>
-            <img className="TestimonialImage" src={ require(`/src/assets/images/testimonialImg-${ data.img }`) }></img>
-            <p className="TestimonialQuote">{ data.description }</p>
-            <p className="TestimonialName">{ data.name }</p>
+            <div>
+                <img className="TestimonialImage" src={ require(`/src/assets/images/testimonialImg-${ data.img }`) }></img>
+                <p className="TestimonialQuote">{ data.description }</p>
+                <p className="TestimonialName">{ data.name }</p>
+            </div>
         </SwiperSlide>
     )) }
     </Swiper>   

@@ -8,6 +8,10 @@
     .swiper-wrapper {
         width: 1140px;
     }
+    .TestimonialsSection {
+        width: 1140px;
+        margin: 0 auto;
+    }
     .Footer > .TopSection {
         align-items: flex-end;
         width: 1140px;
@@ -21,6 +25,7 @@
     .HeroSectionContent {
         padding: 0 150px;
     }
+    .TestimonialsSection,
     .ActivitiesSection {
         padding: 0 150px;
     }
@@ -34,7 +39,8 @@
 
 @media only screen and (745px <= width <= 1024px) {
     .HeroSectionContent,
-    .ActivitiesSection {
+    .ActivitiesSection,
+    .TestimonialsSection {
         padding: 0 32px;
     }
     .SideBottomLine {
@@ -53,8 +59,12 @@
 
 @media only screen and (376px <= width <= 744px) {
     .HeroSectionContent,
-    .ActivitiesSection {
+    .ActivitiesSection,
+    .TestimonialsSection {
         padding: 0 24px;
+    }
+    .swiper {
+        padding: 35px;
     }
     .HeroSectionContent {
         flex-direction: column;
@@ -83,8 +93,12 @@
 
 @media only screen and (width <= 375px) {
     .HeroSectionContent,
-    .ActivitiesSection {
+    .ActivitiesSection,
+    .TestimonialsSection {
         padding: 0 24px;
+    }
+    .swiper {
+        padding: 35px;
     }
     .HeroSectionContent {
         flex-direction: column;
