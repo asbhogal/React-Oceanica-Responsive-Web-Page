@@ -52,7 +52,8 @@ const Footer = () => {
                 </div>
                 <div className="NewsletterGDPRSection">
                     <input type="checkbox" id="NewsletterGDPRCheckbox" className="NewsletterGDPRCheckbox"></input>
-                    <label htmlFor="NewsletterGDPRCheckbox" id="GDPRCheckbox">GDPR CHECKBOX</label>
+                    <span id="NewsletterGDPRCheckBoxStyled"></span>
+                    <label htmlFor="NewsletterGDPRCheckbox" id="GDPRCheckbox">GDPR STATEMENT</label>
                 </div>
                 <p className="NewsletterOfferDisclaimer">&#42;Offer valid for a certain period and only on particular packages. T&Cs apply.</p>
             </div>

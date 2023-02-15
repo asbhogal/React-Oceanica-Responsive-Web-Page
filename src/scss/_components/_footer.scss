@@ -44,6 +44,7 @@
             flex-direction: column;
             align-items: center;
             gap: 10px;
+            padding: 10px;
             font-family: 'Manrope', sans-serif;
             font-size: 12px;
             > p:first-of-type {
@@ -67,6 +68,38 @@
                     outline: none;
                     border: 1px solid white;
                     padding: 8px 16px;
+                }
+            }
+            .NewsletterGDPRSection {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 18px;
+                #NewsletterGDPRCheckbox {
+                    visibility: hidden;
+                }
+                #NewsletterGDPRCheckBoxStyled {
+                    height: 30px;
+                    width: 30px;
+                    border: 1px solid $White;
+                    cursor: pointer;
+                    transition: $Transition-03;
+                    &:hover {
+                        border-color: $CharlestonGreen;
+                        transition: $Transition-03;
+                    }
+                    &:active {
+                        background-color: $White;
+                        transition: $Transition-03;
+                    }
+                    &:checked {
+                        background-color: red;
+                    }
+                    :after {
+                        content: "";
+                        position: absolute;
+                        display: none;
+                    }
                 }
             }
         }
