@@ -22,12 +22,17 @@
 /****** DESKTOP - 1025px --> 1440px ******/
 
 @media only screen and (1025px <= width <= 1440px) {
+    .Header {
+        padding: 40px 150px;
+    }
     .HeroSectionContent {
         padding: 0 150px;
     }
-    .TestimonialsSection,
     .ActivitiesSection {
         padding: 0 150px;
+    }
+    .TestimonialsSection {
+        padding: 80px 150px;
     }
     .Footer > .TopSection {
         align-items: flex-end;
@@ -39,9 +44,11 @@
 
 @media only screen and (745px <= width <= 1024px) {
     .HeroSectionContent,
-    .ActivitiesSection,
-    .TestimonialsSection {
+    .ActivitiesSection {
         padding: 0 32px;
+    }
+    .TestimonialsSection {
+        padding: 32px;
     }
     .SideBottomLine {
         width: 25px;

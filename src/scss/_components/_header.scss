@@ -3,7 +3,7 @@
 
 .Header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: absolute;
     width: 100%;
@@ -14,8 +14,14 @@
         gap: 10px;
         @include NavBarLinks;
         li {
+            transition: $Transition-03;
+            cursor: pointer;
             &:first-child {
                 font-weight: 700;
+            }
+            &:hover:not(:first-child) {
+                transition: $Transition-03;
+                font-weight: 500;
             }
         }
     }
@@ -26,6 +32,12 @@
         @include NavBarLinks;
         color: $MoonstoneBlue;
         font-weight: 700;
+        cursor: pointer;
+        transition: $Transition-03;
+        &:hover {
+            color: $RomanSilver;
+            transition: $Transition-03;
+        }
     }
 }
 
