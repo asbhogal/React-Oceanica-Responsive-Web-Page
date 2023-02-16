@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const Header = () => {
 
-    const   [active, setActive] = useState("HeaderMenu"),
+    const   [active, setActive] = useState("HeaderNavLinks"),
             [toggle, setToggle] = useState("NavbarToggle");
 
     const navToggle = () => {

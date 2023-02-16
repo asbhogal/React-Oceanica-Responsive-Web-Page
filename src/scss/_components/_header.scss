@@ -89,7 +89,7 @@
     .HeaderNavLinks {
         position: absolute !important;
         left: 0;
-        background-color: $White;
+        background-color: $RichBlack;
         width: 100vw;
         height: 100vh;
         top: 0;
@@ -99,11 +99,11 @@
         align-items: center;
         justify-content: center;
         gap: 50px;
-        opacity: 0;
+        transform: translateX(100%);
         transition: $Transition-03;
     }
 }
 
 .NavActive {
-    opacity: 1;
+    transform: translateX(50%);
 }
