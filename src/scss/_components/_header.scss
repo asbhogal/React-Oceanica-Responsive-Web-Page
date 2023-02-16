@@ -8,7 +8,7 @@
     position: absolute;
     width: 100%;
     padding: 45px 0;
-    .HeaderMenu {
+    .HeaderNavLinks {
         display: flex;
         list-style-type: none;
         gap: 10px;
@@ -78,13 +78,21 @@
 }
 
 @media only screen and (width <= 600px) {
+    .Header {
+        justify-content: space-between;
+        padding: 45px 32px;
+    }
+    .Navbar {
+        z-index: 1;
+    }
     .NavbarToggle {
         display: flex;
         z-index: 9;
         cursor: pointer;
     }
-    .HeaderCTA {
-        display: none;
+    .HeaderCTA,
+    .HeaderMenu {
+        display: none !important;
     }
     .HeaderNavLinks {
         position: absolute !important;
@@ -105,5 +113,5 @@
 }
 
 .NavActive {
-    transform: translateX(50%);
+    transform: translateX(0%);
 }

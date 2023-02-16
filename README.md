@@ -17,6 +17,7 @@ This project is in two parts:
 
  <strong>:heavy_check_mark: Features:</strong><br>
   - Designed from Figma mockups
+  - .map() to render Testimonial and Activity data from a .js file
   - Fully responsive
   - Optimised for the web
 

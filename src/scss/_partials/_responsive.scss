@@ -79,6 +79,9 @@
     .SideBottomLine {
         display: none;
     }
+    .LeftSideContent {
+        align-items: center;
+    }
     .CTAHeroSection {
         position: unset !important;
         i {
@@ -109,6 +112,9 @@
     }
     .HeroSectionContent {
         flex-direction: column;
+    }
+    .LeftSideContent {
+        align-items: center;
     }
     .SideBottomLine {
         display: none;
