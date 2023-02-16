@@ -80,7 +80,6 @@
 @media only screen and (width <= 600px) {
     .Header {
         justify-content: space-between;
-        padding: 45px 32px;
     }
     .Navbar {
         z-index: 1;
@@ -95,8 +94,8 @@
         display: none !important;
     }
     .HeaderNavLinks {
-        position: absolute !important;
-        left: 0;
+        position: fixed !important;
+        right: 0;
         background-color: $RichBlack;
         width: 100vw;
         height: 100vh;
@@ -113,5 +112,5 @@
 }
 
 .NavActive {
-    transform: translateX(0%);
+    transform: translateX(0);
 }
