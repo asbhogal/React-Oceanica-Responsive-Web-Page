@@ -8,7 +8,7 @@
     
     .TopSection {
         justify-content: space-around;
-        padding: 21px 0;
+        padding: 20px 0;
         width: 100%;
         .BusinessDetails {
             display: flex;
@@ -39,7 +39,7 @@
     .MiddleSection {
         display: flex;
         justify-content: center;
-        padding: 10px 0;
+        padding: 65px 0;
         .NewsletterSignUpSection {
             display: flex;
             flex-direction: column;
@@ -108,6 +108,7 @@
     
     .BottomSection {
         display: flex;
+        padding: 40px 0;
         .SocialIcons {
             display: flex;
             justify-content: center;

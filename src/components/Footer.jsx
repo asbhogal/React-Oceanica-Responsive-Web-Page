@@ -13,7 +13,7 @@ const Footer = () => {
                     <p>Lakeside</p>
                     <p>Oceanville</p>
                     <p>WP</p>
-                    <p>000-000</p>x
+                    <p>000-000</p>
                 </div>
             </div>
             <div className="FooterMenu">

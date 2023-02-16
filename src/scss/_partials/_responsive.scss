@@ -4,6 +4,10 @@
     .HeroSectionContent {
         width: 1140px;
         margin: 0 auto;
+        gap: 205px;
+    }
+    .CurrentToursListItem {
+        padding-left: 31px;
     }
     .swiper-wrapper {
         width: 1140px;
@@ -27,6 +31,10 @@
     }
     .HeroSectionContent {
         padding: 0 150px;
+        gap: 205px;
+    }
+    .CurrentToursListItem {
+        padding-left: 31px;
     }
     .ActivitiesSection {
         padding: 0 150px;
@@ -53,6 +61,12 @@
     .SideBottomLine {
         width: 25px;
     }
+    .RightSideContent {
+        width: 100vw;
+    }
+    /* .CurrentToursList {
+        text-align: center;
+    } */
     .CTAHeroSection {
         left: 0;
     }
@@ -76,11 +90,18 @@
     .HeroSectionContent {
         flex-direction: column;
     }
+    .CurrentToursList {
+        text-align: center;
+    }
     .SideBottomLine {
         display: none;
     }
     .LeftSideContent {
         align-items: center;
+        text-align: center;
+    }
+    .RightSideContent {
+        width: 100vw;
     }
     .CTAHeroSection {
         position: unset !important;
@@ -115,6 +136,13 @@
     }
     .LeftSideContent {
         align-items: center;
+        text-align: center;
+    }
+    .RightSideContent {
+        width: 100vw;
+    }
+    .CurrentToursList {
+        text-align: center;
     }
     .SideBottomLine {
         display: none;
