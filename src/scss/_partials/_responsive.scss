@@ -84,9 +84,13 @@
     .TestimonialsSection {
         padding: 0 24px;
     }
+    .TestimonialsSection {
+        position: relative;
+        top: 290px
+    }
     .ActivitiesSection {
         position: relative;
-        top: 100px;
+        top: 450px;
     }
     .swiper {
         padding: 35px;
@@ -101,8 +105,10 @@
         display: none;
     }
     .LeftSideContent {
+        justify-content: center;
         align-items: center;
         text-align: center;
+        padding: 240px 0;
     }
     .RightSideContent {
         width: 100vw;
@@ -112,6 +118,10 @@
         i {
             display: none !important;
         }
+    }
+    .Footer {
+        position: relative;
+        top: 290px
     }
     .Footer > .TopSection {
         flex-direction: column;
@@ -132,9 +142,13 @@
     .TestimonialsSection {
         padding: 0 24px;
     }
+    .TestimonialsSection {
+        position: relative;
+        top: 290px
+    }
     .ActivitiesSection {
         position: relative;
-        top: 100px;
+        top: 450px;
     }
     .swiper {
         padding: 35px;
@@ -143,8 +157,10 @@
         flex-direction: column;
     }
     .LeftSideContent {
+        justify-content: center;
         align-items: center;
         text-align: center;
+        padding: 240px 0;
     }
     .RightSideContent {
         width: 100vw;
@@ -160,6 +176,10 @@
         i {
             display: none !important;
         }
+    }
+    .Footer {
+        position: relative;
+        top: 290px
     }
     .Footer > .TopSection {
         flex-direction: column;

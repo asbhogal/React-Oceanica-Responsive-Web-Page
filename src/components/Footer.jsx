@@ -1,8 +1,17 @@
+import { useState } from "react";
 import oceanicaLogo from "../assets/logos/OceanicaLogo.svg";
 import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from "react-icons/bs";
 import { FaPinterestP } from "react-icons/fa";
+import { IconContext } from "react-icons";
 
 const Footer = () => {
+
+    const [consent, setConsent] = useState(false);
+
+    const handleChange = (event) => {
+        setConsent(event.target.checked);
+    }
+
     return (
         <footer className="Footer">
         <section className="TopSection">
@@ -48,12 +57,11 @@ const Footer = () => {
                 <p>Sign Up to receive 10&#37; off your first package deal&#42;</p>
                 <div className="NewsletterSignUpForm">
                     <input className="NewsletterSignUpFormInput" placeholder="Email address"></input>
-                    <button className="NewsletterSignUpSubmitButton">Submit</button>
+                    <button className="NewsletterSignUpSubmitButton" disabled={ !consent }>Submit</button>
                 </div>
                 <div className="NewsletterGDPRSection">
-                    <input type="checkbox" id="NewsletterGDPRCheckbox" className="NewsletterGDPRCheckbox" checked="checked"></input>
-                    <span id="NewsletterGDPRCheckBoxStyled"></span>
-                    <label htmlFor="NewsletterGDPRCheckbox" id="GDPRCheckbox">GDPR STATEMENT</label>
+                    <input type="checkbox" id="NewsletterGDPRCheckbox" name="consent" className="NewsletterGDPRCheckbox" onChange={ handleChange }></input>
+                    <label htmlFor="NewsletterGDPRCheckbox consent" id="GDPRCheckbox">GDPR STATEMENT</label>
                 </div>
                 <p className="NewsletterOfferDisclaimer">&#42;Offer valid for a certain period and only on particular packages. T&Cs apply.</p>
             </div>
