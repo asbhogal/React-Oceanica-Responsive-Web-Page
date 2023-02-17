@@ -17,7 +17,8 @@ This project is in two parts:
 
  <strong>:heavy_check_mark: Features:</strong><br>
   - Designed from Figma mockups
-  - .map() to render Testimonial and Activity data from a .js file
+  - <code>.map()</code> to render Testimonial and Activity data from respective .js files
+  - Event listeners to monitor GDPR checkbox state in footer
   - Fully responsive
   - Optimised for the web
 

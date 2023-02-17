@@ -3,7 +3,6 @@
     font-style: normal;
     font-weight: 700;
     font-size: clamp(2rem, 1.2857rem + 3.5714vw, 4.5rem);
-    //line-height: 98px;
 }
 
 @mixin HeadingTwoTypography {
@@ -11,15 +10,15 @@
     font-style: normal;
     font-weight: 400;
     font-size: clamp(1.5rem, 1.3571rem + 0.7143vw, 2rem);
-    line-height: 33px;
+    line-height: 2.0625rem;
 }
 
 @mixin HeadingThreeTypography {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 2rem;
+    line-height: 2.75rem;
 }
 
 @mixin CTAHeroTypography {
@@ -27,21 +26,21 @@
     font-style: normal;
     font-weight: 600;
     font-size: clamp(1.5rem, 1.3571rem + 0.7143vw, 2rem);
-    line-height: 33px;
+    line-height: 2.0625rem;
     color: #838D9B;
 }
 
 @mixin NavBarLinks {
     font-family: 'Manrope';
     font-style: normal;
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 1.5rem;
+    line-height: 2.0625rem;
 }
 
 @mixin BodyTypography {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
 }

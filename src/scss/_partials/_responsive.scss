@@ -1,65 +1,65 @@
-/****** WIDE - 1440px+ ******/
+/****** WIDE - 90rem+ ******/
 
-@media only screen and (1441px <= width) {
+@media only screen and (90.0625rem <= width) {
     .HeroSectionContent {
-        width: 1140px;
+        width: 71.25rem;
         margin: 0 auto;
-        gap: 205px;
+        gap: 12.8125rem;
     }
     .CurrentToursListItem {
-        padding-left: 31px;
+        padding-left: 1.9375rem;
     }
     .swiper-wrapper {
-        width: 1140px;
+        width: 71.25rem;
     }
     .TestimonialsSection {
-        width: 1140px;
+        width: 71.25rem;
         margin: 0 auto;
     }
     .Footer > .TopSection {
         align-items: flex-end;
-        width: 1140px;
+        width: 71.25rem;
         margin: 0 auto;
     }
 }
 
-/****** DESKTOP - 1025px --> 1440px ******/
+/****** DESKTOP - 64.0625rem --> 90rem ******/
 
-@media only screen and (1025px <= width <= 1440px) {
+@media only screen and (64.0625rem <= width <= 90rem) {
     .Header {
-        padding: 40px 150px;
+        padding: 2.5rem 9.375rem;
     }
     .HeroSectionContent {
-        padding: 0 150px;
-        gap: 205px;
+        padding: 0 9.375rem;
+        gap: 12.8125rem;
     }
     .CurrentToursListItem {
-        padding-left: 31px;
+        padding-left: 1.9375rem;
     }
     .ActivitiesSection {
-        padding: 0 150px;
+        padding: 0 9.375rem;
     }
     .TestimonialsSection {
-        padding: 80px 150px;
+        padding: 5rem 9.375rem;
     }
     .Footer > .TopSection {
         align-items: flex-end;
-        padding: 0 150px;
+        padding: 0 9.375rem;
     }
 }
 
-/****** TABLET - 745px --> 1024px ******/
+/****** TABLET - 46.5625rem --> 64rem ******/
 
-@media only screen and (745px <= width <= 1024px) {
+@media only screen and (46.5625rem <= width <= 64rem) {
     .HeroSectionContent,
     .ActivitiesSection {
-        padding: 0 32px;
+        padding: 0 2rem;
     }
     .TestimonialsSection {
-        padding: 32px;
+        padding: 2rem;
     }
     .SideBottomLine {
-        width: 25px;
+        width: 1.5625rem;
     }
     .RightSideContent {
         width: 100vw;
@@ -72,28 +72,28 @@
     }
     .Footer > .TopSection {
         align-items: flex-end;
-        padding: 32px 0;
+        padding: 2rem 0;
     }
 }
 
-/****** TABLET (SMALL) - 376px --> 744px ******/
+/****** TABLET (SMALL) - 23.5rem --> 46.5rem ******/
 
-@media only screen and (376px <= width <= 744px) {
+@media only screen and (23.5rem <= width <= 46.5rem) {
     .HeroSectionContent,
     .ActivitiesSection,
     .TestimonialsSection {
-        padding: 0 24px;
+        padding: 0 1.5rem;
     }
     .TestimonialsSection {
         position: relative;
-        top: 290px
+        top: 18.125rem
     }
     .ActivitiesSection {
         position: relative;
-        top: 450px;
+        top: 28.125rem;
     }
     .swiper {
-        padding: 35px;
+        padding: 2.1875rem;
     }
     .HeroSectionContent {
         flex-direction: column;
@@ -108,7 +108,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 240px 0;
+        padding: 15rem 0;
     }
     .RightSideContent {
         width: 100vw;
@@ -121,37 +121,37 @@
     }
     .Footer {
         position: relative;
-        top: 290px
+        top: 18.125rem
     }
     .Footer > .TopSection {
         flex-direction: column;
         align-items: center;
-        padding: 24px 0;
+        padding: 1.5rem 0;
     }
     .Footer > .TopSection > .BusinessDetails {
         text-align: center;
-        padding-bottom: 40px;
+        padding-bottom: 2.5rem;
     }
 }
 
-/****** MOBILE - 375px ******/
+/****** MOBILE - 23.4375rem ******/
 
-@media only screen and (width <= 375px) {
+@media only screen and (width <= 23.4375rem) {
     .HeroSectionContent,
     .ActivitiesSection,
     .TestimonialsSection {
-        padding: 0 24px;
+        padding: 0 1.5rem;
     }
     .TestimonialsSection {
         position: relative;
-        top: 290px
+        top: 18.125rem
     }
     .ActivitiesSection {
         position: relative;
-        top: 450px;
+        top: 28.125rem;
     }
     .swiper {
-        padding: 35px;
+        padding: 2.1875rem;
     }
     .HeroSectionContent {
         flex-direction: column;
@@ -160,7 +160,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 240px 0;
+        padding: 15rem 0;
     }
     .RightSideContent {
         width: 100vw;
@@ -179,18 +179,18 @@
     }
     .Footer {
         position: relative;
-        top: 290px
+        top: 18.125rem
     }
     .Footer > .TopSection {
         flex-direction: column;
         align-items: center;
-        padding: 24px 0;
+        padding: 1.5rem 0;
     }
     .Footer > .TopSection > .FooterMenu {
         text-align: center;
     }
     .Footer > .TopSection > .BusinessDetails {
         text-align: center;
-        padding-bottom: 40px;
+        padding-bottom: 2.5rem;
     }
 }

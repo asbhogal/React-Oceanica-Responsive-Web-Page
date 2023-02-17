@@ -8,29 +8,29 @@
     
     .TopSection {
         justify-content: space-around;
-        padding: 20px 0;
+        padding: 1.25rem 0;
         width: 100%;
         .BusinessDetails {
             display: flex;
             flex-direction: column;
             img {
-                width: 188px;
-                padding-bottom: 20px;
+                width: 11.75rem;
+                padding-bottom: 1.25rem;
             }
             .BusinessAddress {
                 display: flex;
                 flex-direction: column;
-                gap: 15px;
+                gap: .9375rem;
                 font-family: 'Manrope', sans-serif;
-                font-size: 12px;
+                font-size: .75rem;
             }
         }
         .FooterMenu {
             display: flex;
-            gap: 45px;
+            gap: 2.8125rem;
             ul {
                 font-family: 'Manrope', sans-serif;
-                font-size: 12px;
+                font-size: .75rem;
                 list-style-type: none;
             }
         }
@@ -39,38 +39,38 @@
     .MiddleSection {
         display: flex;
         justify-content: center;
-        padding: 65px 0;
+        padding: 4.0625rem 0;
         .NewsletterSignUpSection {
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 10px;
-            padding: 10px;
+            gap: .625rem;
+            padding: .625rem;
             font-family: 'Manrope', sans-serif;
-            font-size: 12px;
+            font-size: .75rem;
             > p:first-of-type {
                 font-weight: 600;
             }
             .NewsletterSignUpForm {
                 display: flex;
-                gap: 12px;
+                gap: .75rem;
                 width: 100%;
                 .NewsletterSignUpFormInput {
                     background: none;
                     outline: none;
-                    border-bottom: 1px solid white;
+                    border-bottom: .0625rem solid white;
                     outline: none;
                     border-top: none;
                     border-left: none;
                     border-right: none;
-                    padding: 8px 16px;
+                    padding: .5rem 1rem;
                     width: 100%;
                 }
                 .NewsletterSignUpSubmitButton {
                     background: none;
                     outline: none;
-                    border: 1px solid white;
-                    padding: 8px 16px;
+                    border: .0625rem solid white;
+                    padding: .5rem 1rem;
                     cursor: pointer;
                     .disabled {
                         pointer-events: none;
@@ -80,9 +80,9 @@
             .NewsletterGDPRSection {
                 display: flex;
                 align-items: center;
-                gap: 35px;
+                gap: 2.1875rem;
                 width: 100%;
-                height: 40px;
+                height: 2.5rem;
                 /* #NewsletterGDPRCheckbox {
                     position: absolute;
                     opacity: 0;
@@ -94,9 +94,9 @@
                     position: relative;
                     top: 0;
                     left: 0;
-                    height: 30px;
-                    width: 30px;
-                    border: 1px solid $White;
+                    height: 1.875rem;
+                    width: 1.875rem;
+                    border: .0625rem solid $White;
                     cursor: pointer;
                     transition: $Transition-03;
                     &:hover {
@@ -125,56 +125,36 @@
         content: "";
         display: block;
         position: absolute;
-        width: 30px;
-        height: 30px;
-        top: -9.5px;
+        width: 1.875rem;
+        height: 1.875rem;
+        top: -0.5938rem;
         left: 0;
-        border: 1px solid $White;
+        border: .0625rem solid $White;
         border-radius: 0;
         background-color: $RichBlack;
 }
    input[type=checkbox]:checked:after {
         content: "";
         display: block;
-        width: 10px;
-        height: 20px;
+        width: .625rem;
+        height: 1.25rem;
         border: solid $White;
-        border-width: 0 1px 1px 0;
+        border-width: 0 .0625rem .0625rem 0;
         transform: rotate(45deg);
         position: absolute;
-        top: -7px;
-        left: 10px;
+        top: -0.4375rem;
+        left: .625rem;
 }
-
-    /* .NewsletterGDPRSection input:checked ~ #NewsletterGDPRCheckBoxStyled {
-        background-color: red;
-    }
-
-    input:checked ~ #NewsletterGDPRCheckBoxStyled::after {
-        display: block;
-    }
-
-    .NewsletterGDPRSection #NewsletterGDPRCheckBoxStyled::after {
-        left: 9px;
-        top: 5px;
-        width: 5px;
-        height: 10px;
-        border: solid white;
-        border-width: 0 3px 3px 0;
-        -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
-    } */
     
     .BottomSection {
         display: flex;
-        padding: 40px 0;
+        padding: 2.5rem 0;
         .SocialIcons {
             display: flex;
             justify-content: center;
-            gap: 20px;
+            gap: 1.25rem;
             width: 100%;
-            padding: 25px 0;
+            padding: 1.5625rem 0;
             color: $White;
         }
     }
@@ -182,13 +162,13 @@
 
 #FooterMenuTitle {
     font-weight: 600;
-    border-bottom: 1px solid $White;
-    padding: 5px;
+    border-bottom: .0625rem solid $White;
+    padding: .3125rem;
 }
 
 @for $i from 1 through 5 {
     .FooterMenuItem-#{$i} {
         font-weight: 400;
-        padding: 5px;
+        padding: .3125rem;
     }
 }
