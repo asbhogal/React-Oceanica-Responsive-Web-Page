@@ -79,7 +79,8 @@
 
 @media only screen and (width <= 600px) {
     .Header {
-        justify-content: space-between;
+        justify-content: space-around;
+        gap: 75px;
     }
     .Navbar {
         z-index: 1;

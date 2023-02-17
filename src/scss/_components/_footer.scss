@@ -77,9 +77,16 @@
                 align-items: center;
                 gap: 18px;
                 #NewsletterGDPRCheckbox {
-                    visibility: hidden;
+                    position: absolute;
+                    opacity: 0;
+                    cursor: pointer;
+                    height: 0;
+                    width: 0;
                 }
                 #NewsletterGDPRCheckBoxStyled {
+                    position: relative;
+                    top: 0;
+                    left: 0;
                     height: 30px;
                     width: 30px;
                     border: 1px solid $White;
@@ -93,10 +100,7 @@
                         background-color: $White;
                         transition: $Transition-03;
                     }
-                    &:checked {
-                        background-color: red;
-                    }
-                    :after {
+                    ::after {
                         content: "";
                         position: absolute;
                         display: none;
@@ -104,6 +108,26 @@
                 }
             }
         }
+    }
+
+    .NewsletterGDPRSection input:checked ~ #NewsletterGDPRCheckBoxStyled {
+        background-color: red;
+    }
+
+    input:checked ~ #NewsletterGDPRCheckBoxStyled::after {
+        display: block;
+    }
+
+    .NewsletterGDPRSection #NewsletterGDPRCheckBoxStyled::after {
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
     }
     
     .BottomSection {

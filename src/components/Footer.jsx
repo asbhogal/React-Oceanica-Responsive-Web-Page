@@ -13,7 +13,7 @@ const Footer = () => {
                     <p>Lakeside</p>
                     <p>Oceanville</p>
                     <p>WP</p>
-                    <p>000-000</p>
+                    <p>000-000-000</p>
                 </div>
             </div>
             <div className="FooterMenu">
@@ -51,7 +51,7 @@ const Footer = () => {
                     <button className="NewsletterSignUpSubmitButton">Submit</button>
                 </div>
                 <div className="NewsletterGDPRSection">
-                    <input type="checkbox" id="NewsletterGDPRCheckbox" className="NewsletterGDPRCheckbox"></input>
+                    <input type="checkbox" id="NewsletterGDPRCheckbox" className="NewsletterGDPRCheckbox" checked="checked"></input>
                     <span id="NewsletterGDPRCheckBoxStyled"></span>
                     <label htmlFor="NewsletterGDPRCheckbox" id="GDPRCheckbox">GDPR STATEMENT</label>
                 </div>
